@@ -15,7 +15,7 @@
 ## downloads files from manifest file
 MANIFEST=allfiles.manifest_001.json.bz2
 
-./dx-download-agent-linux download -num_threads=20 $MANIFEST 
+./scripts/dx-download-agent-linux download -num_threads=20 $MANIFEST 
 
 
 
